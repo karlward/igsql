@@ -103,7 +103,7 @@ Add your Instagram keys and search string(s)
 
 You have to modify one file to use this code.  That file is: 
 
-    ~/Code/igsql/load-stream.py
+    ~/Code/igsql/load-recent-media-by-tag.py
 
 You need to set the following variables to the appropriate values:
 
