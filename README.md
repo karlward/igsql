@@ -109,9 +109,12 @@ You need to set the following variables to the appropriate values:
 
     client_id = 'secret'
     client_secret = 'secret'
+    access_token = 'secret'
     search_tag = 'aiweiwei'
 
 search_tag is a comma separated list of strings.  The search_tag string is documented in the Instagram client API, [https://github.com/Instagram/python-instagram#data-retrieval](https://github.com/Instagram/python-instagram#data-retrieval).  The tag search endpoint is described at [http://instagram.com/developer/endpoints/tags/](http://instagram.com/developer/endpoints/tags/).
+
+The access token process is described at [https://github.com/Instagram/python-instagram#obtaining-an-access-token](https://github.com/Instagram/python-instagram#obtaining-an-access-token)
 
 Run the load-recent-media-by-tag.py script
 -----------------------------
