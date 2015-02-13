@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 from instagram.client import InstagramAPI
 from igsql.database import Base, db_session, engine
