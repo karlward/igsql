@@ -12,8 +12,8 @@ client_secret = 'secret'
 # documentation here - https://github.com/Instagram/python-instagram
 access_token = 'secret'
 
-#api = InstagramAPI(client_id=client_id, client_secret=client_secret)
-api = InstagramAPI(access_token=access_token)
+api = InstagramAPI(client_id=client_id, client_secret=client_secret)
+#api = InstagramAPI(access_token=access_token)
 
 search_tag = 'aiweiwei'
 
